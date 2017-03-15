@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/landing.css" />
+        <title>Georgia Southern University Mobile</title>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" id="eagleNavBar">
+            <div class="container-fluid">
+                <a class="pull-left" href="landing.html"><span class="glyphicon glyphicon-chevron-left navBarBack"></span></a>
+                <img src="./img/Landing-Header.png" class="img-responsive center-block brand">
+            </div>
+        </nav>
+
+        <div class="container-fluid" id="containerInfo">
+            <div class="row emergencyPageHeader">
+                <h1 style="color:white;font-size:4em;"><span class="red-plus glyphicon glyphicon-plus"></span> Emergency</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 well">
+                    <p class="lead"><strong>Emergency</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:911">911</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12 well">
+                    <p class="lead"><strong>Georgia Southern University Public Safety</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:9124785234">912-478-5234</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.row -->
+			<div class="row">
+                <div class="col-xs-12 well">
+                    <p class="lead"><strong>Statesboro Police Department</strong></p>
+                    <ul class="list-unstyled">                       
+						   <li><a href="tel:9127649911">912-764-9911</a></li>
+						 <li>Website: <a href="http://statesboropd.com/home.php">http://statesboropd.com/home.php</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12 well">
+                    <p class="lead"><strong>Georgia Southern University Counseling Center</strong></p>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:9124785541">912-478-5541</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="lead" style="margin-left:10px;"><strong>AED Locations</strong></p>
+                    <!--<iframe src="https://maps.espatial.com:443/esPublicWebApp/pages/map.jsp?geoMapId=9528&lp=c&TENANT_ID=119770" class="embed-responsive-item" width="100%" height="480"></iframe>-->
+                    <p><a href="http://www.georgiasouthern.edu/map/?show_aed=true" onclick="inAppBrowserClick(this)">Click to view AED locations in the campus map &gt;</a></p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="text-center">
+                <img src="img/GSU.WHITE_Horizontal2.png" class="footerImg" />
+            </div>
+        </footer>
+            <script type="text/javascript" src="cordova.js"></script>
+            <script type="text/javascript" src="js/jquery.min.js"></script>
+            <script type="text/javascript" src="js/scripts.js"></script>
+            <script type="text/javascript" src="js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="js/emergency.js"></script>
+
+</body>
+</html>
