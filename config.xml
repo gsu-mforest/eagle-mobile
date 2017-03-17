@@ -30,6 +30,8 @@
     <plugin name="cordova-plugin-google-analytics" source="npm" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 
+    <icon src="www/icon.png"/>
+    
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
         <icon density="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
